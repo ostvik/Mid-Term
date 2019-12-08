@@ -88,7 +88,7 @@ for g in Newlistofemployees: #for loop
 
 
 Fileinvariable = open("Midterm4.txt", "a") #opens, reads, and writes from a file
-Fileinvariable.write(income, "65000, 55000")
+Fileinvariable.write("60000, 65000, 55000")
 Fileinvariable.close()
 
 Fileinvariable = open("Midterm4.txt", "r")
