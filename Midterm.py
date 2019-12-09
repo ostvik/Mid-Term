@@ -11,14 +11,14 @@ class applicant: #creates a class
     self.name = name
     self.college = college
 
-  def myfunc(self): #impliments inheritance
+  def applicant_info(self): #impliments inheritance
     print("Your name is " + self.name)
     print("And you are from " + self.college)
     print("Correct?")
 
 
 app = applicant("Viktor", "Stanford") #prints info in the class
-app.myfunc()
+app.applicant_info()
 
 
 
